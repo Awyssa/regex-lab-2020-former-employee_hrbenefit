@@ -1,4 +1,5 @@
 def starts_with_a_vowel?(word)
+  word.match /^\w{a,e,i,o,u}$/
 
 end
 
